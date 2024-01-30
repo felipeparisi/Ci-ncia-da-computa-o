@@ -1,4 +1,4 @@
-				Arquitetura Cisc X Risc 
+			Arquitetura Cisc X Risc 
 
 Descrição:
 	- Conceitos de arquitetura CISC e RISC: características, vantagens e desvantagens
@@ -33,3 +33,53 @@ Aqui você compreenderá bem o que são as arquiteturas CISC, RISC e híbrida, b
 		Características da arquitetura CISC
 
 - Revisão funcionamentodo computador
+	- CPU.
+		- Registradores
+			- Registradores de uso geral que são a memória de trabalho da CPU
+			- Registradores especial que são RDM Registrador de dados de memória, REM registrador de endereço de memória, Contador de intruções e o registrador de intruções.
+		- Unidade lógica aritimética(UAL)
+			- Realizar as operações lógicas e aritiméticas 
+		- Unidade de cintrole (UC) é como o mastro da CPU, distribiu os comandos 
+			- Ciclo de excução de instrução :
+inicio > Busca a próxma instrução > decodificar a instrução > executar a instrução > fim
+		- Barramento interno (BI)
+	- Memória.
+	- Dispositivos de entrada\saida.
+	- Barramentos (Meios fisicos de ligação entre os componentes a cima).
+		- Barramento de dados. 
+		- Barramento de endereços. 
+		- Barramento de controle. 
+
+
+Abordagem CISC na arquitetura de processadores
+- o termo CISC remete a um Computador com Conjunto Complexo de Instruções
+ está relacionada às possibilidades na hora de se projetar a arquitetura de um processador, com instruções específicas para o maior número de funcionalidades possível. Além disso, essas instruções realizam operações com diferentes níveis de complexidade, buscando, muitas vezes, operandos na memória principal e retornando a ela os resultados.
+
+Isso faz com que a quantidade de instruções seja extensa e que a Unidade de Controle do processador seja bastante complexa para decodificar a instrução a ser executada. Entretanto, a complexidade é compensada por poucos acessos à memória e soluções adequadas para problemas específicos.
+
+				UNIDADE DE CONTROLE
+	- MEMÓRIA DE DADOS 				- MEMÓRIA DE PROGRAMA 
+	- REGISTRADORES					- UNIDADE  DE ENTRADA E SAIDA 
+
+
+ORIGEM 
+  A sigla CISC só começou a ser usada após a criação do conceito RISC  no inicio da decada de 1980 quando os processadores anteriores passaram a ser chamados de CISC de forma retroativa 
+
+Conforme a tecnologia de fabricação e a capacidade computacional evoluíam, problemas mais complexos puderam ser resolvidos pelos processadores. Para esses problemas, foram sendo criadas novas instruções específicas.
+
+Múltiplo endereçamento
+Observando a última coluna da tabela anterior, é possível perceber o conceito principal e uma das definições mais usuais de arquitetura com abordagem CISC: diversos tipos de endereçamento.
+
+Dessa forma, temos:
+
+- R-R
+ - Para instruções que usam registradores como entrada e saída.
+- R-M
+ - Quando um dos elementos (operandos ou resultado) deve ser buscado/escrito na memória e ao menos um em registrador
+- M-M
+ - Para instruções em que os operandos e o resultado estão na memória.
+
+O princípio fundamental da abordagem CISC é a realização de operações complexas, que envolvem buscar operandos na memória principal, operar sobre eles (na ULA) e guardar o resultado já na memória.
+
+Nesses casos, o código de máquina é mais simples de se gerar pelo compilador, pois, geralmente, há relação direta entre uma linha de código em alto nível e uma instrução da arquitetura
+
