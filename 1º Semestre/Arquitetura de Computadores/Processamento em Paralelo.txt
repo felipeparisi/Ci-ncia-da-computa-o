@@ -1,0 +1,65 @@
+				Processamento em Paralelo
+
+Descrição:
+	- Apresentação do vínculo entre o alto desempenho da computação e o processamento em paralelo, identificando tipos de organização de processadores e a propensão para o uso da tecnologia multicore em busca do aumento de desempenho.
+
+Propósito:
+	- Apontar as arquiteturas multiprocessadas e multicore como uma alternativa às limitações da eficiência e do custo de desenvolvimento dos computadores com um único processador e único núcleo de execução, melhorando o desempenho do hardware com o aumento da frequência do clock do processador.
+
+Objetivos
+
+Módulo 1: Computação de alto desempenho por meio do processamento em paralelo
+	- Reconhecer as vantagens da computação de alto desempenho por meio do processamento em paralelo.
+ 
+
+Módulo 2: Tipos de organizações de processadores paralelos
+	-  Identificar os tipos de organizações de processadores paralelos.
+
+Módulo 3: Desempenho do hardware
+	- Identificar as questões de desempenho do hardware que direcionam o movimento para os computadores multicore.
+
+				Introdução
+Com os avanços tecnológicos houve uma crescente necessidade em aumentar o desempenho dos equipamentos usados em nosso cotidiano. Exemplo disso são processos executados em nossos celulares, tablets e notebooks. Para atender a essas demandas, o processamento em paralelo fez com que as operações pudessem ser executadas independentemente, minimizando o tempo de execução. Assim, veremos o vínculo entre o alto desempenho da computação e o processamento em paralelo.
+
+
+			Evolução dos computadores
+Questões de desempenho
+Nas últimas décadas, o custo dos sistemas computacionais diminuiu à medida que o desempenho e a capacidade das máquinas aumentaram significativamente. Exemplos disso são os equipamentos usados em nosso cotidiano, como computadores, tablets, smartphones e outros, que possuem uma capacidade computacional superior em comparação a um computador (mainframe) da década de 1960 ou 1970, considerado um supercomputador para a época.
+
+As limitações do passado foram colocadas de lado, tanto pelo custo quanto pela capacidade de processamento. Podemos citar algumas aplicações que, atualmente, possuem uma grande capacidade de processamento em sistemas baseados em microprocessadores:
+
+- Processamento de imagem 		- Renderização tridimensional 
+- Reconhecimento de  linguagem 		- Videocinferência 
+- Modelagem e simulação 
+
+
+
+
+Desempenho do Hardware:
+
+O projeto de evolução dos processadores se baseou, inicialmente, no aumento de paralelismo em nível das instruções, buscando realizar mais trabalho em cada ciclo do clock, o que resultou em soluções como o pipeline, estrutura superescalar e SMT (multithreading simultâneo). Em cada uma delas, os projetistas tentaram aumentar o desempenho do sistema incrementando a complexidade das soluções.
+
+Entretanto, muitas dessas soluções se depararam com algumas limitações (nos processos de fabricação, nos materiais utilizados) e exigência de melhores controles para que fosse possível garantir a sua eficiência.
+
+Com a construção de novos processadores, houve o acréscimo do número de transistores por chip e altas frequências de clock. Nesse contexto, o aumento do consumo de energia cresceu exponencialmente e, por conseguinte, a produção de calor, entre outras inúmeras situações.
+
+Seguindo essa linha de raciocínio, podemos referenciar a Regra de Pollack. Ela determina que o aumento de desempenho é diretamente proporcional à raiz quadrada do aumento da complexidade. Nesse caso, se a lógica utilizada em um core do processador for dobrada, apenas conseguirá um aumento de 40% no seu desempenho. Logo, com o uso de vários cores, cria-se potencial para aumentar o desempenho de forma quase linear, caso o software possa usar essa vantagem.
+
+Outro ponto importante deve-se à capacidade de integração das pastilhas, o que permite aumentar proporcionalmente o espaço destinado ao uso das caches, reduzindo, assim, o consumo de energia.
+
+
+Desempenho do Software:
+
+Diferentes análises podem ser realizadas para medir o desempenho em softwares, partindo das medições do tempo necessário para realizar as partes serial e paralelizável, considerando a sobrecarga de escalonamento.
+
+Estudos apontam que, mesmo com uma pequena parte do código sendo serial, executar esse código no sistema multicore poderia ser vantajoso quando comparado a soluções de um único core. Os softwares desenvolvidos para servidores também podem utilizar de forma eficiente uma estrutura multicore paralela, pois os servidores geralmente lidam com numerosas transações em paralelo e, em muitos casos, independentes.
+
+É possível identificar vantagens nos softwares de uso geral para servidores, de acordo com a habilidade de dimensionar o rendimento em função do número de cores.
+
+
+Organização multicdore:
+
+- Número de cores processadores no chip 	- Número de níveis de memória cache 
+-Quantidadde de memória cache compartilhada 	- Emprego de multithreadings simultâneos
+
+

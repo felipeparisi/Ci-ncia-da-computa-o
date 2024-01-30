@@ -1,0 +1,171 @@
+					LÓGICA DIGITAL 
+
+Descrição:  A lógica digital através das operações da álgebra booleana.
+
+Propósito: Compreender a lógica booleana e a importância das aplicações de portas e circuitos lógicos no desenvolvimento de programas e equipamentos eletrônicos
+
+					OBJETIVOS
+
+Módulo 1
+- Operações básicas de álgebra booleana. 
+	- Identificar as opreções básicas da álgebra booleana. 
+
+Módulo 2 
+- Portas e opreções lógicas. 
+	- Compreender portas lógicas, opreções lógicas e as suas tabelas- verdade. 
+
+Módulo 3 
+- Expressões lógicas e diagramas lógicos. 
+	- Aplicae as expressões lógicas e diagramas lógicos. 
+
+
+					INTRODUÇÃO
+
+As máquinas se comunicam de forma binária (bits 0 ou 1). Fisicamente, os circuitos eletrônicos são construídos para que gerem tensões que representem esses bits 0 e 1 de acordo com as ações que a máquina deve executar.
+
+Dessa forma, o computador possui vários circuitos lógicos que precisam ser orientados em como atuar, a partir de orientações lógicas baseadas em 0 e 1. Para fazer isso, é preciso utilizar a regra booleana, que corresponde a uma linguagem baseada em símbolos, letras e conectores para que as máquinas gerem os resultados pretendidos a partir de entradas de 0 e 1.
+
+No decorrer do conteúdo, você aprenderá os conceitos básicos das regras booleanas, como elas influenciam no desenvolvimento dos softwares e dos equipamentos eletrônicos.
+
+
+
+
+					MÓDULO 1 	
+			    PORTAS LÓGICAS E LÓGICA BOOLEANA
+
+- As operações que são realizadas por um computador digital (binário), vistas como complexas, podem ser compreendidas como simples combinações de operações aritméticas e lógicas básicas, como visto a seguir:
+		
+		- Somar bits
+		- Complementar bits
+		- Mover bits
+		- comparar bits 
+
+
+Estas operações lógicas são implementadas através de circuitos eletrônicos denominados circuitos lógicos, os quais também são conhecidos como gates ou portas lógicas.
+
+Na lógica digital, há somente duas condições, 1 e 0, e os circuitos lógicos utilizam faixas de tensões predefinidas para representar esses valores binários. Assim, é possível construir circuitos lógicos que possuem a capacidade de produzir ações que irão permitir tomadas de decisões inteligentes, coerentes e lógicas.
+
+
+	- É imprtante que tenhamos a capaciadade de descrever a operação dos circuitos, pois eles são citados repetidas vezes em textos técnicos.
+
+Boole desenvolveu a sua lógica a partir de símbolos e representou as expressões por letras, efetuando a sua ligação através dos conectivos (símbolos algébricos).
+
+				LÓGICA BOLLEANA 
+
+
+Para este tipo de aplicação, podemos analisar a conversão de um valor de uma tensão em um determinado circuito, conforme apresentado na gráfico a seguir, em que os valores considerados como baixos serão convertidos em 0 (zeros) e os valores considerados altos serão convertidos em 1 (um).
+
+Perceba que, com a tensão baixa (bit 0), o equipamento estará desligado, já, com a tensão alta (bit 1), ele estará ligado.
+
+			|BIT|  AÇÃO   | CONDIÇÃO |TENSÃO|RESULTADO|
+			| 1 | LIGADO  |VERDADEIRO| ALTO |   SIM   | 
+			| 0 |DESLIGADO|  FALSO   |BAIXO |   NÃO   |
+
+O pesquisador Claude Shannon, do Instituto de Tecnologia de Massachusetts (MIT), em 1938, propôs que a álgebra booleana poderia ser utilizada para resolver problemas com projetos de circuitos com comutadores. A partir das técnicas de Shannon, foi possível a sua aplicação na análise e no desenvolvimento de circuitos digitais eletrônicos. Assim, a álgebra booleana, através das suas propriedades básicas, se mostra eficiente como uma ferramenta para:
+
+
+	- Análise 
+		- A função de um circuito digital é descrita de acordo com a análise de um modo simplificado 
+
+	- Projeto
+		- A lógica dooleana é utilizada para que seja desenvolvida uma implementação simplificada desta função, ao especificar uma determinada função de um circuito.  
+
+Iniciando o nosso estudo, representaremos os operadores lógicos e, a partir desses, perceberemos a representação das suas respectivas portas lógicas. Neste caso, para que possamos compreender os valores resultantes de cada operador lógico, é necessário conhecer as Tabelas Verdade, que são tabelas que representam todas as possíveis combinações dos valores das variáveis de entrada com os seus respectivos valores de saída.
+
+
+					TABELA VERDADE
+
+É uma técnica utilizada para descrever como a saída de um circuito lógico é dependente dos níveis lógicos de entrada, isto é, são tabelas que conterão todas as possíveis combinações das variáveis de entrada de uma determinada função e, como resultado, os valores de saída.
+
+Neste caso, a tabela-verdade conterá o número necessário de linhas para representar todas as combinações possíveis das suas variáveis de entrada.
+
+Os valores 0 e 1 são considerados como 0 = FALSO e 1 = VERDADEIRO. Como exemplo, observe a imagem a seguir:
+
+
+
+                               _____________ 
+			A --> |             |
+			      |      ?      |-->X
+			B --> |_____________|
+
+
+Agora, veja como fica a tabela-verdade do circuito com duas entradas e uma saída:
+
+
+				 E E S
+				|A|B|X|
+				|0|0|1|
+				|0|1|0|
+				|1|0|1|
+				|1|1|0|
+
+
+			OPERADORS E PORTAS LÓGICAS BÁSICAS 
+
+- Portas lógicas são circúitos eletronicos que implementam NOT, OR e AND
+
+		   
+		- OR(OU)
+	 	  - Simbolo:+  
+		  - Tabela verdade do OR(ou)	
+				|A|B|X|
+				|0|0|0|    Na tabela verdade de OR(OU) só da
+				|0|1|1|    FALSO se os dois valores forem 
+				|1|0|1|    negativos (0)
+				|1|1|1|
+
+
+		- EXEMPLO 2 
+				|A|B|C|X|
+				|0|0|0|0|
+				|0|0|1|1|   SÓ VAI DAR FALSO SE TODOS FOREM FALSO
+				|0|1|0|1|
+				|0|1|1|1|
+				|1|0|0|1|
+				|1|0|1|1|
+				|1|1|0|1|
+				|1|1|1|1|
+
+
+
+		- AND(E)
+	 	  - Simbolo: .  
+		  - Tabela verdade do AND(E)	
+				|A|B|X|
+				|0|0|0|    
+				|0|1|0|    SÓ DA VERDADEIRO SE TODOS FOREM VERDADEIROS
+				|1|0|0|    
+				|1|1|1|
+
+
+		- EXEMPLO 2 
+				|A|B|C|X|
+				|0|0|0|0|
+				|0|0|1|0|  
+				|0|1|0|0|
+				|0|1|1|0|
+				|1|0|0|0|
+				|1|0|1|0|
+				|1|1|0|0|
+				|1|1|1|1|
+
+		- OR(OU)
+	 	  - Simbolo: ~ 
+		  - Tabela verdade do NOT(NÃO)	
+				|A|B|X|
+				|0|0|1|       
+				|1|1|0|
+	
+
+		- EXEMPLO 2 
+				|A|B|C|X|
+				|1|1|1|0|
+
+
+				MÓDULO 2
+			Portas e operações lógicas
+
+
+Conceito 
+- As expressões lógicas, também denominadas como funções lógicas, podem ser definidas da mesma forma que uma expressão algébrica, isto é, com o uso de sinais de entrada (variáveis lógicas — binárias), ligados por conectivos lógicos (símbolos que representarão uma operação lógica, com parênteses, opcionalmente) e também com o sinal de igualdade (=), produzindo, como resultado, um único sinal de saída.
+

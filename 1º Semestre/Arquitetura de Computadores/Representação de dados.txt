@@ -1,0 +1,36 @@
+		REPRESENTAÇÃO DE DADOS 
+
+Unidade fundamental utilizada belo computador é o bits, um bits pode ser 0 ou 1 
+
+outra aunidade e o Byte, um bite equivale a 8 bits
+
+para pasar de Byte para bits é só mutiplicar por 8 e de bits par Bytes é só dividir por 8. 
+
+2 - Sisitema de númeração e operação 
+
+
+Cada algarismo tem um valor relativo (diferente) de acordo com sua posição no número. Observe:
+
+
+Base 10 (decimal): 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.
+Base 2 (binária): 0, 1.
+Base 8 (octal): 0, 1, 2, 3, 4, 5, 6, 7.
+Base 16 (hexadecimal): 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.
+
+
+
+Lógica booleana
+
+Os valores binários seguem a lógica booleana. Nela, dois valores são referidos como verdadeiro e falso, sim e não ou 0 e 1. Não importa a escolha feita para essa referência: seu conceito é o mesmo.
+
+A conexão íntima entre a lógica booleana e os circuitos que executam tarefas computacionais é um conceito fundamental na estruturação da infraestrutura computacional da qual desfrutamos atualmente.
+
+Entender essa conexão significa compreender a pergunta de Sedgewick e Wayne (2017): "Como os circuitos calculam?". Afinal, quando você passa a saber e “sentir” como é o funcionamento dos circuitos lógicos, também consegue entender a importância da representação dos valores binários 0 e 1 em outras bases numéricas.
+
+Tabela de representação de dados. 
+Tabela ASCII
+Tabela UNICODE
+
+O ASCII é um bom conjunto de caracteres para textos de língua inglesa, mas não tanto para os demais idiomas, como japonês, chinês, árabe etc. Isso levou um grupo de empresas a criar o Unicode, padrão internacional no qual cada caractere possui um único valor: 16 bits. Com isso, podemos ter um total de 65.536 símbolos (216).
+
+

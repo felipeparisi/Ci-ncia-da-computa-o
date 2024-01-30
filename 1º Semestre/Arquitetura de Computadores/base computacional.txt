@@ -1,0 +1,53 @@
+		BASE COMPUTACIONAL 
+
+Prof.º Leandro de Mattos Ferreira
+
+Descrição:
+Conceitos básicos de computadores. Evolução histórica e principais componentes.
+Propósito: 
+Ilustrar a origem e a evolução dos computadores para a compreensão do funcionamento dos atuais sistemas computacionais.
+
+Primeiro computador da História 
+- Nome:  Eniac 
+- Data: foi criado entre 1943 e 1946
+- Componentes: 170.000 cálvulas termiônicas.
+- Peso: cerca de 30 Toneladas. 
+- Espaço utilizado: Sala de 150m2.
+- Capacidade de processamento (número de cálculos por segundo): 1 bilhão de vezes menor que a dos celulares usados hoje em dia.
+
+
+A mudança para uma nova era de computadores só foi possivel devido aos transitores. 
+Os primeiros transistores ocupavam apenas alguns milímetros, precisando de bem menos energia que as válvulas. Assim, foi possível reduzir o tamanho de rádios, equipamentos eletrônicos em geral e computadores.
+
+
+Já a terveira geração criou circuitos integrados
+Na década de 1960, o próximo salto de evolução foi dado com a criação dos circuitos integrados (CI): pastilhas de silício que contêm um circuito eletrônico miniaturizado. É o que, de forma comum, chamamos de chip de computador.
+
+A quarta geração veio com os micro processadores
+A década de 1980 presenciou a proliferação de PCs cada vez mais potentes, baratos e conectados por meio do surgimento das redes locais de computadores e da internet: a rede mundial.
+
+Além disso, um novo equipamento aparecia nos lares: o videogame, um tipo de computador especializado, cujos programas são jogos eletrônicos com ênfase nos gráficos e na interação com os usuários.
+
+
+Modulo 2 - HARDWARE / SOFTWARE
+
+
+Modulo 3 - o papel do sistema computacional 
+
+Módulo 4 - Comunicação em rede e sistemas computacionais 
+
+A internet -
+- Na década de 1960, os computadores já eram uma realidade consolidada. Desse modo, o Departamento de Defesa Norte-Americano resolveu iniciar os estudos para a construção de uma rede de comunicação capaz de permitir trabalhos em conjunto de pessoas muito distantes geograficamente. Assim, a ARPANET foi criada.
+Pensado para possibilitar uma troca de informações, o conceito de sistemas computacionais em rede necessariamente evoluiu, permitindo, hoje em dia, a interação com diversas aplicações, o que era uma realidade até então impensável para sistemas isolados.
+
+
+
+
+
+
+
+
+
+
+
+
